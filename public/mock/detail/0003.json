@@ -1,0 +1,24 @@
+{
+  "ret": true,
+  "data": {
+    "sightName": "京东石林峡(AAAA景区)",
+    "bannerImg": "http://img1.qunarzz.com/sight/p0/1604/78/78873494f26e554090.water.jpg_600x330_d5e0d52e.jpg",
+    "gallaryImgs": ["http://img1.qunarzz.com/sight/p0/1905/fa/fa0a62359b691f5da3.img.jpg_350x240_7702a3e2.jpg", "http://img1.qunarzz.com/sight/p0/1905/e0/e09c5636ea5d93faa3.img.jpg_350x240_eea574de.jpg","http://img1.qunarzz.com/sight/p0/1905/e4/e4523858a261786a3.img.jpg_350x240_a88cb44a.jpg","http://img1.qunarzz.com/sight/p0/1508/43/fb45a89b503cc6a60b71a705249eeb46.water.jpg_350x240_aa2c7971.jpg","http://img1.qunarzz.com/sight/p0/1803/8c/8cad2d9c68136462a3.img.jpg_350x240_1cd1fe6c.jpg","http://img1.qunarzz.com/sight/p0/1508/e8/ca4ff83f90e1443bd8103e43ec4fc49f.water.jpg_350x240_aaf025be.jpg","http://img1.qunarzz.com/sight/p0/1803/7f/7f86e3cc4f96af3aa3.img.jpg_350x240_51fc0787.jpg"],
+    "recommendInfo": [{
+      "title": "石林峡景区成人票（提前2小时预订）",
+      "time": "可订明日",
+      "price": "58",
+      "type": "预订"
+    }, {
+      "title": "石林峡门票+UFO观景台（单人票）",
+      "time": "可订明日",
+      "price": "98",
+      "type": "预订"
+    }, {
+      "title": "石林峡门票+单程索道票（4选1）",
+      "time": "可订明日",
+      "price": "153",
+      "type": "预订"
+    }]
+  }
+}

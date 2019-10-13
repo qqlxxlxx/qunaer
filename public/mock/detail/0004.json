@@ -1,0 +1,24 @@
+{
+  "ret": true,
+  "data": {
+    "sightName": "北京欢乐谷(AAAA景区)",
+    "bannerImg": "http://img1.qunarzz.com/sight/p0/1508/89/895a1b7add84f23faca053ce9e3153db.water.jpg_600x330_93d96bdf.jpg",
+    "gallaryImgs": ["http://img1.qunarzz.com/sight/p0/1909/c2/c2ad5b2bf5743e7da3.img.jpg_350x240_72803859.jpg", "http://img1.qunarzz.com/sight/p0/1508/77/43f8ce1046f80fa78111d00c09c260e3.water.jpg_350x240_990c98fd.jpg"],
+    "recommendInfo": [{
+      "title": "[夜场]北京欢乐谷假面糖果节夜场成人票",
+      "time": "可订明日",
+      "price": "39.9",
+      "type": "预订"
+    }, {
+      "title": "[全天]北京欢乐谷成人票",
+      "time": "可订明日",
+      "price": "295",
+      "type": "预订"
+    }, {
+      "title": "北京欢乐谷全天大学生票",
+      "time": "23:56前可订明日",
+      "price": "148",
+      "type": "查看"
+    }]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "ret": true,
+  "data": {
+    "sightName": "故宫(AAAAA景区)",
+    "bannerImg": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_600x330_f922b488.jpg",
+    "gallaryImgs": ["http://img1.qunarzz.com/sight/p0/1909/4e/4e1afc2e1133ade7a3.img.jpg_r_800x800_d3eb324d.jpg", "http://img1.qunarzz.com/sight/p0/1907/ca/ca68bd95bc36bdba3.img.jpg_r_800x800_33169c4b.jpg","http://img1.qunarzz.com/sight/p55/201211/04/fbcab3e5d6479ce893835fbb.jpg_r_800x800_6360f514.jpg","http://img1.qunarzz.com/wugc/p180/201306/16/7f08e81624346b1693835fbb.jpg_r_800x800_5f03ad73.jpg","http://img1.qunarzz.com/wugc/p123/201211/19/a2045d091f02b25493835fbb.png_r_800x800_c59f0eba.png"],
+    "recommendInfo": [{
+      "title": "北京故宫大门票+珍宝馆+资深导游讲解（配无线耳麦）*成人票",
+      "time": "可订明日",
+      "price": "99",
+      "type": "预订"
+    }, {
+      "title": "【上午场】故宫成人票+深度讲解+无线耳麦",
+      "time": "可订明日",
+      "price": "138",
+      "type": "预订"
+    }, {
+      "title": "【可选上门接】北京故宫+八达岭长城|毛主席纪念堂国博1日游",
+      "time": "可订明日",
+      "price": "168",
+      "type": "查看"
+    }]
+  }
+}

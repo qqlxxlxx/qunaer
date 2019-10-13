@@ -1,0 +1,24 @@
+{
+  "ret": true,
+  "data": {
+    "sightName": "古北水镇",
+    "bannerImg": "http://img1.qunarzz.com/sight/p0/1903/5d/5dcaf453dfd6f5dba3.img.jpg_600x330_4f4a22ad.jpg",
+    "gallaryImgs": ["http://img1.qunarzz.com/sight/p0/1903/21/21ede4b736d674baa3.img.jpg_350x240_5ceebb6a.jpg", "http://img1.qunarzz.com/sight/p0/1908/81/81014b203ee93a9fa3.img.jpg_350x240_67407abe.jpg","http://img1.qunarzz.com/sight/p0/1905/fd/fdcaccd588324246a3.img.jpg_350x240_ae4e36f8.jpg","http://img1.qunarzz.com/sight/p0/1810/2a/2af904bb11e38083a3.img.jpg_350x240_fb2c0c8e.jpg","http://img1.qunarzz.com/sight/p0/1810/c3/c34ec378f12232d0a3.img.jpg_350x240_5133a96c.jpg"],
+    "recommendInfo": [{
+      "title": "【随买随用、快速入园】古北水镇成人票",
+      "time": "21:00前随买随用",
+      "price": "140",
+      "type": "预订"
+    }, {
+      "title": "古北水镇门票+司马台长城联票（刷码直接入园，专用通道）",
+      "time": "可订明日",
+      "price": "170",
+      "type": "预订"
+    }, {
+      "title": "【可选上门接】北京故宫+八达岭长城|毛主席纪念堂国博1日游",
+      "time": "可订明日",
+      "price": "278.0",
+      "type": "查看"
+    }]
+  }
+}
