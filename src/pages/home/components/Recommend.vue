@@ -15,7 +15,7 @@
         <div class="item-info">
           <p class="item-title">{{item.title}}</p>
           <div class="item-price">
-            <span>￥<em class="price-num">54</em></span>起
+            <span>￥<em class="price-num">{{item.price}}</em></span>起
           </div>
           <div class="item-desc">{{item.desc}}</div>
         </div>

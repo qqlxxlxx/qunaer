@@ -7,6 +7,7 @@ import Detail from '@/pages/detail/Detail'
 Vue.use(Router)
 
 // 路由懒加载 component: () => Promise.resolve('@/pages/detail/Detail')
+
 const routes = [{
     path: '/',
     redirect: '/home'
@@ -24,7 +25,6 @@ const routes = [{
     component: Detail
   }
 ]
-
 
 export default new Router({
   routes,

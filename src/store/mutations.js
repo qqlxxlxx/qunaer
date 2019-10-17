@@ -5,6 +5,8 @@ export default {
       if (localStorage.city) {
         localStorage.city = city
       }
-    } catch (e) {}
+    } catch (e) {
+      console.log(e);
+    }
   }
 }

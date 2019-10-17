@@ -63,6 +63,7 @@ export default {
     if(this.lastCity !== this.city) {
       this.lastCity = this.city
       this.getHomeInfo()
+      localStorage.setItem('city', this.lastCity)
     }
   }
 }

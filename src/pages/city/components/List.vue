@@ -46,16 +46,13 @@ export default {
   },
   computed: {
     // 把vuex中city映射到当前组件下currentCity的计算属性里
-    ...mapState({
-      currentCity: 'city'
-    })
+    ...mapState({currentCity: 'city'})
   },
   mounted() {
     this.scroll = new Bscroll(this.$refs.wrapper)
   },
   methods: {
     handleCityClick (city) {
-      // console.log(city);
       // this.$store.commit('changeCity', city)
       this.changeCity(city)
       this.$router.push('/')
@@ -64,7 +61,6 @@ export default {
   },
   watch: {
     letter () {
-      // console.log(this.letter)
       if (this.letter) {
         const element = this.$refs[this.letter][0]
         this.scroll.scrollToElement(element)
