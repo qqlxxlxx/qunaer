@@ -4,7 +4,7 @@
         :ref="item"
         v-for="(item, key) of letters" :key="key"
         @click="handleLetterClick"
-        @touchstart.prevent="handleTouchStart"
+        @touchstart.stop.prevent="handleTouchStart"
         @touchmove="handleTouchMove"
         @touchend="handleTouchEnd"
     >
@@ -42,18 +42,16 @@ export default {
     handleLetterClick (e) {
       this.$emit('change', e.target.innerText)
     },
-    handleTouchStart () {
+    handleTouchStart (e) {
+      this.$emit('change', e.target.innerText)
       this.touchStatus = true
     },
     handleTouchMove (e) {
       if(this.touchStatus) {
-        if (this.timer) {
-          clearTimeout(this.timer)
-        }
+        this.timer && clearTimeout(this.timer)
         this.timer = setTimeout(() => {
           const touchY = e.touches[0].clientY - 79
-          // console.log(touchY)
-          const index = Math.floor((touchY - this.startY) / 20)
+          const index = Math.floor((touchY - this.startY) / 18)
           if (index >= 0 && index < this.letters.length) {
             this.$emit('change', this.letters[index])
           }
@@ -70,16 +68,16 @@ export default {
 <style lang="stylus" scoped>
   @import '~styles/varibles.styl'
   .list
-    display: flex
-    flex-direction: column
-    justify-content: center
     position: absolute
     top: 1.58rem
     right: 0
     bottom: 0
-    width: .4rem
+    display: flex
+    flex-direction: column
+    justify-content: center
+    width: .54rem
     .item
-      line-height: .4rem
+      line-height: .36rem
       text-align: center
       color: $bgColor
 </style>

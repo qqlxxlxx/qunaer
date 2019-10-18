@@ -40,7 +40,7 @@ export default {
     ...mapState(['city'])
   },
   methods: {
-    getHomeInfo() {
+    getHomeInfo () {
       axios.get('/api/index.json?city=' + this.city)
         .then(this.getHomeInfoSucc)
     },
@@ -53,6 +53,9 @@ export default {
         this.recommendList = data.recommendList
         this.weekendList = data.weekendList
       }
+    },
+    getscroll () {
+      
     }
   },
   mounted() {

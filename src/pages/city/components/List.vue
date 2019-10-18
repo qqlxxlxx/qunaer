@@ -49,7 +49,9 @@ export default {
     ...mapState({currentCity: 'city'})
   },
   mounted() {
-    this.scroll = new Bscroll(this.$refs.wrapper)
+    this.scroll = new Bscroll(this.$refs.wrapper, {
+      click: true
+    })
   },
   methods: {
     handleCityClick (city) {

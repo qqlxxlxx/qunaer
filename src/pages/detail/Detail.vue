@@ -3,7 +3,7 @@
     <detail-banner :sightName="sightName" :bannerImg="bannerImg" :bannerImgs="gallaryImgs" />
     <detail-header />
     <div class="content">
-      <detail-recommend :recommend="recommend"></detail-recommend>
+      <detail-recommend :recommend="recommend" />
     </div>
   </div>
 </template>
@@ -12,7 +12,9 @@
 import DetailBanner from './components/Banner'
 import DetailHeader from './components/Header'
 import DetailRecommend from './components/Recommend'
+
 import axios from 'axios'
+
 export default {
   name: 'Detail',
   components: {

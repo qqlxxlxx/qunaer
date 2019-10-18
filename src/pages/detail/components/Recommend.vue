@@ -2,7 +2,7 @@
   <div class="recommend-wrap">
     <h3 class="recommend-title border-bottom">去哪儿推荐</h3>
     <div class="recommend-item border-bottom"
-         v-for="item of recommend"
+         v-for="(item, index) of recommend" :key="index"
     >
       <div class="item-main">
         <h6 class="item-title">{{item.title}}</h6>
@@ -34,7 +34,6 @@ export default {
   @import '~styles/mixin.styl'
   .recommend-wrap
     padding-left: .2rem
-    margin-bottom: .2rem
     .recommend-title
       padding: 0 .2rem
       height: .88rem
